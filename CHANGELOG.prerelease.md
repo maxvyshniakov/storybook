@@ -1,3 +1,13 @@
+## 11.0.0-beta.3
+
+- Build: List the correct templates that failed to generate outside CI - [#37342](https://github.com/storybookjs/storybook/pull/37342), thanks @HarshRajSinghania!
+- Builder-Vite: Write files registered with addWatchFile to preview-stats.json - [#37032](https://github.com/storybookjs/storybook/pull/37032), thanks @BenjaminMercier19!
+- CLI: Default sandbox command to initializing Storybook - [#37348](https://github.com/storybookjs/storybook/pull/37348), thanks @Sun-Wukhan!
+- CLI: Use current commit hash in sandbox publish commit title - [#37374](https://github.com/storybookjs/storybook/pull/37374), thanks @Sun-Wukhan!
+- Core: Replace the story index's version counters with replaceable file slots - [#37335](https://github.com/storybookjs/storybook/pull/37335), thanks @valentinpalkovic!
+- Docs: Honor language in emitted source snippets - [#35298](https://github.com/storybookjs/storybook/pull/35298), thanks @mrginglymus!
+- Test: Fix the context userEvent in insecure contexts - [#37334](https://github.com/storybookjs/storybook/pull/37334), thanks @JReinhold!
+
 ## 11.0.0-beta.2
 
 - Angular: Destroy root components before the application on story switch - [#37288](https://github.com/storybookjs/storybook/pull/37288), thanks @arturovt!
